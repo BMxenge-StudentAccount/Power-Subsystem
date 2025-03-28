@@ -3748,31 +3748,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 332.74 140.335 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c8bf83ab-41a8-42b3-afb1-31bdbb09af46)
-    (property "Reference" "#PWR018" (at 339.09 140.335 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 336.55 140.335 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 332.74 140.335 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 332.74 140.335 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e4171209-5486-4440-881b-fcb2598f9dcf))
-    (instances
-      (project "Micro-Mouse Power Subsystem"
-        (path "/b84c8230-4cbd-48ad-931b-8b6e428e7801"
-          (reference "#PWR018") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 132.715 366.395 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf391913-7869-4c69-8d3f-9430ebba1fdb)

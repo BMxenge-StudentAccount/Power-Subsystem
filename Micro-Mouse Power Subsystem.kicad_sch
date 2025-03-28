@@ -6397,6 +6397,19 @@
 		(uuid d311088b-bc00-47cd-8775-dd6d66c28c17)
 	)
 	(rectangle
+		(start 299.72 263.525)
+		(end 369.57 289.56)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d6dad300-5654-4031-bcd7-02e1012cce0f)
+	)
+	(rectangle
 		(start 13.335 329.184)
 		(end 231.775 378.46)
 		(stroke
@@ -6480,6 +6493,18 @@
 			(justify left bottom)
 		)
 		(uuid "9113f9df-cb14-46f3-b6b7-70b3ade7bd39")
+	)
+	(text "JST Connecter"
+		(exclude_from_sim no)
+		(at 345.948 286.512 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "93969573-d5ac-4bf3-a0e6-3bd0a2d1027d")
 	)
 	(text "Must handle 16V (min)\nX7R ceramic capacitor"
 		(exclude_from_sim no)
@@ -7383,7 +7408,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 210.82) (xy 391.16 210.82)
+			(xy 321.31 278.13) (xy 328.93 278.13)
 		)
 		(stroke
 			(width 0)
@@ -8493,7 +8518,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 208.28) (xy 391.16 208.28)
+			(xy 325.12 275.59) (xy 328.93 275.59)
 		)
 		(stroke
 			(width 0)
@@ -10622,7 +10647,7 @@
 		(uuid "e6ae3cec-c7cd-4cfa-b4f4-54961f1f87e2")
 	)
 	(label "BATTERY"
-		(at 383.54 210.82 0)
+		(at 321.31 278.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13071,7 +13096,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "1.2uH"
 			(at 110.49 250.19 90)
 			(effects
 				(font
@@ -16186,7 +16211,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 387.35 208.28 180)
+		(at 325.12 275.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16195,7 +16220,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbba4069-205b-41db-85fe-6ba3367ddabd")
 		(property "Reference" "#PWR030"
-			(at 387.35 201.93 0)
+			(at 325.12 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16204,7 +16229,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 387.35 203.2 0)
+			(at 325.12 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16212,7 +16237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 387.35 208.28 0)
+			(at 325.12 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16221,7 +16246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 387.35 208.28 0)
+			(at 325.12 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16230,7 +16255,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 387.35 208.28 0)
+			(at 325.12 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16729,16 +16754,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 396.24 208.28 0)
+		(at 334.01 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cf391913-7869-4c69-8d3f-9430ebba1fdb")
 		(property "Reference" "J3"
-			(at 399.415 208.28 0)
+			(at 337.185 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16747,7 +16772,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 399.415 210.82 0)
+			(at 337.185 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16756,7 +16781,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 396.24 208.28 0)
+			(at 334.01 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16765,7 +16790,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 396.24 208.28 0)
+			(at 334.01 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16774,7 +16799,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 396.24 208.28 0)
+			(at 334.01 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17774,7 +17799,7 @@
 		(at 334.01 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "ebeb67a3-1dad-4cb6-9fbc-cc04a075ee84")

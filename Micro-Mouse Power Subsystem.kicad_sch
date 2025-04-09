@@ -11035,6 +11035,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "022e4444-2d53-4ee2-b9ce-fac4597fa591")
 		(property "Reference" "TP21"
 			(at 92.202 139.446 0)
@@ -11054,7 +11055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 104.14 143.51 0)
 			(effects
 				(font
@@ -11073,6 +11074,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 99.06 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "BATTERY_CHARGING"
 			(at 99.06 143.51 0)
 			(effects
 				(font
@@ -11121,7 +11131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 119.38 289.56 0)
 			(effects
 				(font
@@ -11140,6 +11150,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 114.3 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "VOLT_REG_pt2"
 			(at 114.3 289.56 0)
 			(effects
 				(font
@@ -11233,6 +11252,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "07639265-ab92-4f37-85bf-a41ee10c3a63")
 		(property "Reference" "TP23"
 			(at 53.848 151.13 90)
@@ -11250,7 +11270,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 57.15 151.13 0)
 			(effects
 				(font
@@ -11277,8 +11297,17 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "BATTERY_CHARGING"
+			(at 57.15 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "9121f4b6-758c-4e60-bfd1-0e0e047d9e83")
+			(uuid "9121f4b6-758c-4e60-bfd1-0e0e047d9e84")
 		)
 		(instances
 			(project ""
@@ -11336,6 +11365,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 332.74 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "BATTERY_MONITORING"
 			(at 332.74 146.05 0)
 			(effects
 				(font
@@ -11483,6 +11521,15 @@
 				)
 			)
 		)
+		(property "Group" "EXT_LOAD_SWITCH_2"
+			(at 88.265 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "de4530ec-85f1-4b1b-8888-ad7e90f9d5b0")
 		)
@@ -11554,6 +11601,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Group" "MOTOR_1"
+			(at 224.79 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "12"
@@ -11669,6 +11725,15 @@
 				)
 			)
 		)
+		(property "Group" "STP_DWN"
+			(at 162.814 356.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "09ca9308-96b8-4edc-8bc9-df81668f7a9c")
 		)
@@ -11733,6 +11798,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Group" "USBC"
+			(at 394.335 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -11823,6 +11897,15 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "BATTERY_CHARGING"
+			(at 105.41 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6a0eb6d9-7b31-41ae-b33f-a631cf16a397")
 		)
@@ -11894,6 +11977,15 @@
 				)
 			)
 		)
+		(property "Group" "VOLT_REG_pt2"
+			(at 106.934 296.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2365ba8-2996-4db4-801e-a6dd4216e94e")
 		)
@@ -11956,6 +12048,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 92.71 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "BATTERY_CHARGING"
 			(at 92.71 186.69 0)
 			(effects
 				(font
@@ -12032,6 +12133,15 @@
 				)
 			)
 		)
+		(property "Group" "STP_DWN"
+			(at 83.312 352.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "deb595b4-2b34-41b0-a447-bf31a31db02d")
 		)
@@ -12073,7 +12183,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 351.79 147.32 0)
 			(effects
 				(font
@@ -12093,6 +12203,15 @@
 		)
 		(property "Description" "test point"
 			(at 351.79 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "BATTERY_MONITORING"
+			(at 351.79 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12204,7 +12323,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 130.81 237.49 0)
 			(effects
 				(font
@@ -12231,8 +12350,17 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "VOLT_REG"
+			(at 135.89 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "138835a7-a915-4d0a-9681-9de5b4eb0bc7")
+			(uuid "138835a7-a915-4d0a-9681-9de5b4eb0bc8")
 		)
 		(instances
 			(project ""
@@ -12290,6 +12418,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 227.33 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "VOLT_REG"
 			(at 227.33 237.49 0)
 			(effects
 				(font
@@ -12368,6 +12505,15 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "BATTERY_CHARGING"
+			(at 107.95 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "76a9f93a-a36b-48bb-8f05-102f482469cc")
 		)
@@ -12433,6 +12579,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Group" "STP_DWN"
+			(at 130.81 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12589,6 +12744,15 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "VOLT_REG"
+			(at 100.33 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4e7fedda-874a-4a3b-88df-488988d4e33e")
 		)
@@ -12632,7 +12796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 355.6 172.72 0)
 			(effects
 				(font
@@ -12659,8 +12823,17 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "BATTERY_MONITORING"
+			(at 355.6 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "6ed1463c-050e-44d3-8857-5a30d6ddacb0")
+			(uuid "6ed1463c-050e-44d3-8857-5a30d6ddacb1")
 		)
 		(instances
 			(project ""
@@ -12723,6 +12896,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Group" "USBC"
+			(at 361.95 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12911,6 +13093,15 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "VOLT_REG"
+			(at 156.21 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "15"
 			(uuid "79e93ea0-e9d0-4a7b-9c09-ae2481c1f362")
 		)
@@ -13059,6 +13250,15 @@
 				)
 			)
 		)
+		(property "Group" "USBC"
+			(at 409.575 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2bde06b1-124c-4074-b0f1-28315e4a019b")
 		)
@@ -13102,7 +13302,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 396.24 133.35 0)
 			(effects
 				(font
@@ -13129,8 +13329,17 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "BATTERY_MONITORING"
+			(at 401.32 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "6ed1463c-050e-44d3-8857-5a30d6ddacb0")
+			(uuid "6ed1463c-050e-44d3-8857-5a30d6ddacb2")
 		)
 		(instances
 			(project ""
@@ -13256,6 +13465,15 @@
 		)
 		(property "Description" "1A Standalone Linear Li-ion/LiPo single-cell battery charger, 4.2V ±1% charge voltage, VCC = 4.0..8.0V, SOIC-8 (SOP-8)"
 			(at 71.628 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "BATTERY_CHARGING"
+			(at 71.12 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13546,6 +13764,15 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "VOLT_REG"
+			(at 182.88 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4e7fedda-874a-4a3b-88df-488988d4e33f")
 		)
@@ -13613,6 +13840,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Group" "VOLT_REG_pt2"
+			(at 118.618 296.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13749,6 +13985,15 @@
 				)
 			)
 		)
+		(property "Group" "MOTOR_1"
+			(at 258.445 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "52f319df-bdaa-4b25-8de2-1826265667ec")
 		)
@@ -13789,7 +14034,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 129.54 229.87 0)
 			(effects
 				(font
@@ -13816,8 +14061,17 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "VOLT_REG"
+			(at 129.54 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "138835a7-a915-4d0a-9681-9de5b4eb0bc7")
+			(uuid "138835a7-a915-4d0a-9681-9de5b4eb0bc9")
 		)
 		(instances
 			(project ""
@@ -13874,6 +14128,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 110.49 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "VOLT_REG"
+			(at 110.49 252.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13950,6 +14213,15 @@
 				)
 			)
 		)
+		(property "Group" "MOTOR_1"
+			(at 240.03 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2fa2250-4d46-4c53-9570-d5980a6ffa80")
 		)
@@ -14007,6 +14279,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 347.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "BATTERY_MONITORING"
+			(at 347.98 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14082,6 +14363,15 @@
 				)
 			)
 		)
+		(property "Group" "STP_DWN"
+			(at 95.758 352.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f6799d0d-40ca-405d-b9a2-07e5041f4e99")
 		)
@@ -14142,6 +14432,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 184.15 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "VOLT_REG"
+			(at 184.15 250.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14282,6 +14581,15 @@
 				)
 			)
 		)
+		(property "Group" "VOLT_REG_pt2"
+			(at 182.88 301.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2378f274-8509-43f3-95f8-348cea306c0b")
 		)
@@ -14324,7 +14632,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 138.43 350.52 0)
 			(effects
 				(font
@@ -14351,8 +14659,17 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "STP_DWN"
+			(at 143.51 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "9121f4b6-758c-4e60-bfd1-0e0e047d9e83")
+			(uuid "9121f4b6-758c-4e60-bfd1-0e0e047d9e85")
 		)
 		(instances
 			(project "Micro-Mouse Power Subsystem"
@@ -14483,6 +14800,15 @@
 				)
 			)
 		)
+		(property "Group" "VOLT_REG_pt2"
+			(at 222.25 300.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "805e3ddd-253c-4cbc-91f9-ea31d79679aa")
 		)
@@ -14544,6 +14870,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 398.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "BATTERY_MONITORING"
+			(at 398.78 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14688,6 +15023,15 @@
 				)
 			)
 		)
+		(property "Group" "MOTOR_2"
+			(at 227.965 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "9f94074d-8478-40a8-829f-af718c954794")
 		)
@@ -14800,6 +15144,15 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "BATTERY_MONITORING"
+			(at 347.98 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad76c8c7-e92b-43c6-b831-7dd0941028b0")
 		)
@@ -14862,6 +15215,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 213.36 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "VOLT_REG"
 			(at 213.36 226.06 0)
 			(effects
 				(font
@@ -14939,6 +15301,15 @@
 				)
 			)
 		)
+		(property "Group" "MOTOR_1"
+			(at 229.87 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c462c8fd-23a7-469a-a610-80f2456aed1b")
 		)
@@ -15004,6 +15375,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Group" "EXT_LOAD_SWITCH_1"
+			(at 60.96 47.625 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15075,6 +15455,15 @@
 				)
 			)
 		)
+		(property "Group" "EXT_LOAD_SWITCH_2"
+			(at 73.66 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c91f1b73-a395-4668-9a4a-f8f25d85b54a")
 		)
@@ -15137,6 +15526,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 200.66 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "VOLT_REG"
 			(at 200.66 226.06 0)
 			(effects
 				(font
@@ -15210,6 +15608,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Group" "MOTOR_2"
+			(at 189.865 149.225 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15344,6 +15751,15 @@
 				)
 			)
 		)
+		(property "Group" "STP_DWN"
+			(at 154.686 345.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "428c54fa-9311-48f0-b804-3cefeec9df3e")
 		)
@@ -15386,7 +15802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 234.95 222.25 0)
 			(effects
 				(font
@@ -15413,8 +15829,17 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "VOLT_REG"
+			(at 229.87 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "138835a7-a915-4d0a-9681-9de5b4eb0bc7")
+			(uuid "138835a7-a915-4d0a-9681-9de5b4eb0bca")
 		)
 		(instances
 			(project ""
@@ -15433,6 +15858,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7d981b5f-abb0-4058-a2d5-4e24649bd8c4")
 		(property "Reference" "TP20"
 			(at 52.832 125.222 90)
@@ -15450,7 +15876,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 57.15 124.46 0)
 			(effects
 				(font
@@ -15477,8 +15903,17 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "BATTERY_CHARGING"
+			(at 57.15 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "9121f4b6-758c-4e60-bfd1-0e0e047d9e83")
+			(uuid "9121f4b6-758c-4e60-bfd1-0e0e047d9e86")
 		)
 		(instances
 			(project ""
@@ -15539,6 +15974,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Group" "EXT_LOAD_SWITCH_2"
+			(at 60.96 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15811,6 +16255,15 @@
 				)
 			)
 		)
+		(property "Group" "EXT_LOAD_SWITCH_1"
+			(at 71.12 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7f25dd8f-9bc5-4808-8bbf-4badd97e53c2")
 		)
@@ -15876,6 +16329,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 187.96 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "VOLT_REG"
 			(at 187.96 226.06 0)
 			(effects
 				(font
@@ -15953,6 +16415,15 @@
 				)
 			)
 		)
+		(property "Group" "MOTOR_2"
+			(at 243.205 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7daa44bd-a8a4-479a-a0ba-a848fcbb97dc")
 		)
@@ -16017,6 +16488,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Group" "VOLT_REG_pt2"
+			(at 142.748 296.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16088,6 +16568,15 @@
 				)
 			)
 		)
+		(property "Group" "EXT_LOAD_SWITCH_1"
+			(at 78.74 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41404011-5700-48f1-848e-97d42942059e")
 		)
@@ -16155,6 +16644,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Group" "EXT_LOAD_SWITCH_2"
+			(at 71.12 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16228,6 +16726,15 @@
 				)
 			)
 		)
+		(property "Group" "VOLT_REG_pt2"
+			(at 131.064 296.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "043a2858-51d0-45bf-af4c-bf8b50bf9591")
 		)
@@ -16297,6 +16804,15 @@
 				)
 			)
 		)
+		(property "Group" "STP_DWN"
+			(at 107.442 352.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89c8eb21-baa0-4290-93cc-e78b5bb28053")
 		)
@@ -16362,6 +16878,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Group" "VOLT_REG_pt2"
+			(at 189.992 289.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16431,6 +16956,15 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "VOLT_REG"
+			(at 132.08 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e1c70da5-2c01-4b4b-b653-718fb1174ead")
 		)
@@ -16474,7 +17008,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 59.69 176.53 0)
 			(effects
 				(font
@@ -16501,8 +17035,17 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "BATTERY_CHARGING"
+			(at 64.77 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "9121f4b6-758c-4e60-bfd1-0e0e047d9e83")
+			(uuid "9121f4b6-758c-4e60-bfd1-0e0e047d9e87")
 		)
 		(instances
 			(project ""
@@ -16564,6 +17107,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Group" "STP_DWN"
+			(at 71.628 352.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16697,6 +17249,15 @@
 				)
 			)
 		)
+		(property "Group" "MOTOR_1"
+			(at 186.69 76.835 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b2bdb75f-1465-405c-aa00-25e63d200602")
 		)
@@ -16737,7 +17298,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 100.33 242.57 0)
 			(effects
 				(font
@@ -16764,8 +17325,17 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "VOLT_REG"
+			(at 100.33 247.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "138835a7-a915-4d0a-9681-9de5b4eb0bc7")
+			(uuid "138835a7-a915-4d0a-9681-9de5b4eb0bcb")
 		)
 		(instances
 			(project ""
@@ -16804,7 +17374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 86.36 345.44 0)
 			(effects
 				(font
@@ -16831,8 +17401,17 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "STP_DWN"
+			(at 81.28 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "9121f4b6-758c-4e60-bfd1-0e0e047d9e83")
+			(uuid "9121f4b6-758c-4e60-bfd1-0e0e047d9e88")
 		)
 		(instances
 			(project ""
@@ -16961,6 +17540,15 @@
 				)
 			)
 		)
+		(property "Group" "SWITCH"
+			(at 262.89 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fc1c4d49-705a-4328-a72f-7be78090f399")
 		)
@@ -17024,6 +17612,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 209.55 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "VOLT_REG"
+			(at 209.55 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17223,6 +17820,15 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "USBC"
+			(at 345.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A8"
 			(uuid "42cc2da6-9708-4a86-8e8b-256cfa51de9f")
 		)
@@ -17335,6 +17941,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Group" "MOTOR_1"
+			(at 201.93 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17471,6 +18086,15 @@
 				)
 			)
 		)
+		(property "Group" "MOTOR_2"
+			(at 189.865 146.685 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c69b5dde-2811-4408-8328-0a87cd896b11")
 		)
@@ -17532,6 +18156,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 88.9 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "VOLT_REG"
 			(at 88.9 228.6 0)
 			(effects
 				(font
@@ -17610,6 +18243,15 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "BATTERY_CHARGING"
+			(at 87.63 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "76a9f93a-a36b-48bb-8f05-102f482469cd")
 		)
@@ -17677,6 +18319,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Group" "MOTOR_2"
+			(at 205.105 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17747,6 +18398,15 @@
 				)
 			)
 		)
+		(property "Group" "VOLT_REG_pt2"
+			(at 198.12 300.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb9c32dc-10bc-44de-a273-bff637e1ea38")
 		)
@@ -17812,6 +18472,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Group" "MOTOR_1"
+			(at 186.69 79.375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17950,6 +18619,15 @@
 				)
 			)
 		)
+		(property "Group" "BATT_CONN"
+			(at 334.01 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "828419f4-39a1-4435-93de-fe706137e67c")
 		)
@@ -18086,6 +18764,15 @@
 				)
 			)
 		)
+		(property "Group" "MOTOR_2"
+			(at 233.045 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "48c22591-6e0a-45c8-8c63-96a0e054ea1a")
 		)
@@ -18155,6 +18842,15 @@
 				)
 			)
 		)
+		(property "Group" "EXT_LOAD_SWITCH_2"
+			(at 78.105 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8aced5f-362c-42de-a2bb-e8879219cdd2")
 		)
@@ -18175,6 +18871,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d327d2e9-e1bc-4de3-88bd-7ff7eaa52b23")
 		(property "Reference" "TP22"
 			(at 90.424 149.352 90)
@@ -18192,7 +18889,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 87.63 158.75 0)
 			(effects
 				(font
@@ -18219,8 +18916,17 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "BATTERY_CHARGING"
+			(at 87.63 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "9121f4b6-758c-4e60-bfd1-0e0e047d9e83")
+			(uuid "9121f4b6-758c-4e60-bfd1-0e0e047d9e89")
 		)
 		(instances
 			(project ""
@@ -18349,6 +19055,15 @@
 				)
 			)
 		)
+		(property "Group" "USBC"
+			(at 370.84 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02172810-d7a7-4b5e-9d3a-ea6c78ffaee8")
 		)
@@ -18414,6 +19129,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Group" "VOLT_REG_pt2"
+			(at 166.116 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18502,6 +19226,15 @@
 				)
 			)
 		)
+		(property "Group" "STP_DWN"
+			(at 174.498 356.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8525d0d0-eb31-409b-9a56-6936d9b89862")
 		)
@@ -18571,6 +19304,15 @@
 				)
 			)
 		)
+		(property "Group" "MOTOR_2"
+			(at 257.175 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c760a155-8adb-4973-a3ad-ad6f6d7f5ee8")
 		)
@@ -18613,7 +19355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 181.61 345.44 0)
 			(effects
 				(font
@@ -18640,8 +19382,17 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "STP_DWN"
+			(at 176.53 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "9121f4b6-758c-4e60-bfd1-0e0e047d9e83")
+			(uuid "9121f4b6-758c-4e60-bfd1-0e0e047d9e8a")
 		)
 		(instances
 			(project ""
@@ -18771,6 +19522,15 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "VOLT_REG"
+			(at 184.15 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e1c70da5-2c01-4b4b-b653-718fb1174eae")
 		)
@@ -18833,6 +19593,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 227.33 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "VOLT_REG"
 			(at 227.33 227.33 0)
 			(effects
 				(font
@@ -18911,6 +19680,15 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "BATTERY_CHARGING"
+			(at 100.33 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ac25adc1-d697-4d23-95c4-6cc9241121a2")
 		)
@@ -18981,6 +19759,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Group" "EXT_LOAD_SWITCH_1"
+			(at 88.265 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -19117,6 +19904,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Group" "PIN_H"
+			(at 334.01 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19276,6 +20072,15 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "VOLT_REG"
+			(at 195.58 237.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e1c70da5-2c01-4b4b-b653-718fb1174eb0")
 		)
@@ -19411,6 +20216,15 @@
 				)
 			)
 		)
+		(property "Group" "EXT_LOAD_SWITCH_1"
+			(at 73.66 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "da42ee24-9d44-408f-bb30-3c88bb54781d")
 		)
@@ -19479,6 +20293,15 @@
 				)
 			)
 		)
+		(property "Group" "STP_DWN"
+			(at 147.574 357.124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d64c07dd-e852-44a1-b949-4cfbc351a4c6")
 		)
@@ -19522,7 +20345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 207.01 289.56 0)
 			(effects
 				(font
@@ -19549,8 +20372,17 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "VOLT_REG_pt2"
+			(at 201.93 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "138835a7-a915-4d0a-9681-9de5b4eb0bc7")
+			(uuid "138835a7-a915-4d0a-9681-9de5b4eb0bcc")
 		)
 		(instances
 			(project ""
@@ -19606,6 +20438,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 123.19 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "VOLT_REG"
+			(at 123.19 242.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19878,6 +20719,15 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "BATTERY_CHARGING"
+			(at 77.47 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "76a9f93a-a36b-48bb-8f05-102f482469ce")
 		)
@@ -19946,6 +20796,15 @@
 				)
 			)
 		)
+		(property "Group" "VOLT_REG_pt2"
+			(at 209.804 300.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87e4a2ae-f032-4ea7-8920-644f008a983c")
 		)
@@ -19986,7 +20845,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 332.74 135.89 0)
 			(effects
 				(font
@@ -20013,8 +20872,17 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "BATTERY_MONITORING"
+			(at 332.74 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "6ed1463c-050e-44d3-8857-5a30d6ddacb0")
+			(uuid "6ed1463c-050e-44d3-8857-5a30d6ddacb3")
 		)
 		(instances
 			(project ""
@@ -20076,6 +20944,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Group" "STP_DWN"
+			(at 186.944 356.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20227,6 +21104,15 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "BATTERY_MONITORING"
+			(at 373.38 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "c5f1689e-6612-4993-ade5-42e1b64e585b")
 		)
@@ -20285,7 +21171,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 332.74 144.78 0)
 			(effects
 				(font
@@ -20312,8 +21198,17 @@
 				(hide yes)
 			)
 		)
+		(property "Group" "BATTERY_MONITORING"
+			(at 332.74 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "6ed1463c-050e-44d3-8857-5a30d6ddacb0")
+			(uuid "6ed1463c-050e-44d3-8857-5a30d6ddacb4")
 		)
 		(instances
 			(project ""
@@ -20371,6 +21266,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 44.45 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Group" "BATTERY_CHARGING"
 			(at 44.45 139.7 0)
 			(effects
 				(font
